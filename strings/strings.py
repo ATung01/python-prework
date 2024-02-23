@@ -68,3 +68,8 @@ print(substring)  # ake
 
 substring = message[-5:-2]
 print(substring)  # ppl
+
+
+message = "Grouper, Halibut, and Trout"
+vowels = "aeiou"
+print(vowels.find("o"))
