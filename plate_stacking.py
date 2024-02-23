@@ -56,11 +56,14 @@ while option != "0":
     case "3":
       print("\nRemove plates")
       print("=" * 12)
-      try:
-        num_to_remove = int(input("How many plates to remove?: "))
-        remove_plates(num_to_remove)
-      except:
-        print("Error. Invalid input.")
+      if len(stack) == 0:
+        print("There's nothing to remove currently.")
+      else:
+        try:
+          num_to_remove = int(input("How many plates to remove?: "))
+          remove_plates(num_to_remove)
+        except:
+          print("Error. Invalid input.")
     case _:
       print("That's not a valid option!")
   option = input(menu)
