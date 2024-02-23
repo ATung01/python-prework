@@ -1,5 +1,5 @@
-likes_pets = False
-pet_limit = 15
+likes_pets = True
+pet_limit = 4
 # 1. Change the variables above and run this
 # file to print "I'm getting a pet!" to the terminal.
 # Only change the variables, not the `if` condition.

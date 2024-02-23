@@ -10,4 +10,10 @@
 # 6
 # 7
 
+for n in range(1, 8):
+  print(n)
 # 2. Recreate the same behavior using a `while` loop.
+i = 1
+while i <= 7:
+  print(i)
+  i += 1

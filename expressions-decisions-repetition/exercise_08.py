@@ -14,3 +14,8 @@ haystack = input("Haystack: ")
 #            St | space station | "St" NOT found in "space station"
 #           1.0 |  Version 11.0 | "1.0" found in "Version 11.0"
 # space station |       station | "space station" NOT found in "station"
+if needle in haystack:
+  print(f'"{needle}" found in "{haystack}')
+else:
+  print(f'"{needle}" NOT found in "{haystack}')
+

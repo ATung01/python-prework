@@ -8,6 +8,17 @@ menu = """1. Add a recipe.
 Select [1-4]: """
 
 option = input(menu)
+match option:
+  case '1':
+    print("Recipe added!")
+  case '2':
+    print("Recipe updated!")
+  case '3':
+    print("Recipe deleted!")
+  case '4':
+    print("Goodbye.")
+  case _:
+    print("I don't understand that option.")
 
 # 1. Use an if/elif/else statement to evaluate the `option`'s
 # value and print a message based on the condition.

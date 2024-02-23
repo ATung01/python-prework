@@ -3,6 +3,11 @@
 
 sum = 0
 value = input('Enter a number or "done": ')
+while value != "done":
+  sum = sum + int(value)
+  print(f"Valued entered = {value}")
+  print(f"New sum = {sum}")
+  value = input('Enter a number or "done": ')
 
 # 1. Use a loop to accumulate a `sum`.
 # If the user enters "done", exit the loop.

@@ -8,3 +8,10 @@
 # and re-prompt the user (re-loop).
 
 value = input("This value is required: ")
+while not value.strip():
+    print("Error! Please enter a valid value.")
+    value = input("This value is required: ")
+
+print("Valid!")
+
+  

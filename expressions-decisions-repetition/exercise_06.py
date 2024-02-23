@@ -16,3 +16,10 @@ print(quote[4:9])  # human
 # people
 # The
 # to be blamed.
+print(quote[0:9])
+print(quote[10:15])
+print(quote[27:34])
+print(quote[34:35])
+print(quote[40:46])
+print(quote[48:51])
+print(quote[-13:])
